@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NDSUAssignment2.1</string>
+    <string name="button_1_text">ExplicitActivity</string>
+    <string name="button_2_text">ImplicitActivity</string>
+    <string name="challenge_1_text">Different Screen Sizes</string>
+    <string name="challenge_2_text">Variations in processing and storage</string>
+    <string name="challenge_3_text">Developing cross platform</string>
+    <string name="challenge_4_text">Different OS versions.</string>
+    <string name="challenge_5_text">Variation in testing.</string>
+</resources>
