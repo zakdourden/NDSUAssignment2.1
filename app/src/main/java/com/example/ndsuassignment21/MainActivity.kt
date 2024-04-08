@@ -40,6 +40,14 @@ class MainActivity : ComponentActivity() {
             Text("Nicholas Jenson")
             Text("NDSU ID: 1385647")
             Button(
+                onClick = { thirdActivityClick() },
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)
+            ) {
+                Text("View Image Activity")
+            }
+            Button(
                 onClick = { explicitActivityClick() },
                 modifier = Modifier
                     .fillMaxWidth()
@@ -55,6 +63,12 @@ class MainActivity : ComponentActivity() {
             ) {
                 Text("Start Activity Implicitly")
             }
+        }
+    }
+
+    private fun thirdActivityClick() {
+        Intent (this, ThirdActivity::class.java).also {
+            startActivity(it)
         }
     }
 
